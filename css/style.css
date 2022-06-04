@@ -1,0 +1,203 @@
+*{
+    margin: 5px;
+    padding: 3px;
+}
+.botonesDePages{
+    text-align: right;
+}
+
+
+.titulo{
+    text-align:left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+    background-color: lightgray;
+    height: 50px;
+}
+
+.logo{
+    text-align: center;
+
+}   
+
+.info{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+    background-color: lightgrey;
+    height: 40px;
+}
+
+.ubicacion{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+}
+
+.nos{
+    text-decoration: underline;
+}
+
+.mapa{
+    text-align: center;
+}
+.ViasDeContacto{
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.titulo__contacto{
+    text-align: center;    
+}
+
+.telefono{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.whatsapp{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.facebook{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.instagram{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.nosotros{
+text-align: center;
+font-size: 40px;
+background-color: lightgray;
+}
+
+.historia{
+    background-color: lightgray;
+    font-size: 25px;
+}
+
+.pie{
+    font-size: 20px;
+}
+
+.titulo__maquinarias{
+    text-align: center;
+    background-color: lightgrey;
+    margin: 20px;
+    width: 100%;
+
+}
+
+.kr1500{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.exactadd{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.berco{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.video{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
+}   
+
+.pie__maquinarias{
+    width: 100%;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+.titulo__trabajos{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.kt1150{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.catc9{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.cumminsb{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.newholland{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.perkins4{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.pie__titulo{
+    text-align: center;
+}
+
+.pie__trabajos{
+    background-color: lightgray;
+}
+
+.titulo__contacto{
+    text-align: center;
+    background-color: lightgray;
+    font-size: 30px;
+}
+
+.caja__contacto{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.enviar{
+    text-align: right;
+}
+
+.pie__contacto{
+    font-size: 20px;
+}

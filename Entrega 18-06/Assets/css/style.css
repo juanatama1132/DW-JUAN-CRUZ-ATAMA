@@ -1,0 +1,437 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "nav"
+                         "header"
+                          "main"
+                          "footer";
+}
+
+.navbar{
+    grid-area: nav;
+    background-color:grey;   
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: end;
+}
+
+.encabezado{
+grid-area: header;
+}
+
+.encabezado h1{
+    display: flex;
+    justify-content: left;
+}
+
+.LOGO{
+    display: flex;
+    justify-content: center;  
+}
+
+.LOGO img{
+    width: 1000px;
+}
+
+.navbar ul{
+   list-style: none;
+   display: flex;
+}
+
+.navbar ul li{
+    padding: 10px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.cuerpo{
+grid-area: main;
+}
+
+.pie{
+    grid-area: footer;
+}
+
+.titulo{
+    text-align:left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+    background-color: lightgray;
+    height: 50px;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+}   
+
+.info{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+    background-color: lightgrey;
+    height: 40px;
+}
+
+.ubicacion{
+    display:flex;
+    justify-content: start;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.mapa{
+    text-align: center;
+}
+
+.ViasDeContacto{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 8px;
+}
+
+.ViasCont{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.ViasCont li{
+    list-style: none;
+    margin: 10px;
+}
+
+.nosotros{
+text-align: center;
+font-size: 40px;
+background-color: lightgray;
+}
+
+.historia{
+    background-color: lightgray;
+    font-size: 25px;
+}
+
+.titulo__maquinarias{
+    text-align: center;
+    background-color: lightgrey;
+    margin: 20px;
+    width: 100%;
+
+}
+
+.kr1500{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.exactadd{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.berco{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.video{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
+}   
+
+
+.titulo__trabajos{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    background-color: lightgrey;
+}
+  
+.trabajosimag ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    border: 5px solid black 
+}
+
+.trabajosimag ul li{
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.trabajosimag ul li h3{
+    text-align: center;
+}
+
+.pie__titulo{
+    text-align: center;
+}
+
+
+.titulo__contacto{
+    text-align: center;
+    background-color: lightgray;
+    font-size: 30px;
+}
+
+.caja__contacto{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.enviar{
+    text-align: right;
+}
+
+@media(max-width:576px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: "nav"
+                             "header"
+                              "main"
+                              "footer";
+    }
+    
+    .navbar{
+        grid-area: nav;
+        background-color:grey;   
+    }
+    
+    .navbar ul{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .encabezado{
+    grid-area: header;
+    }
+    
+    .encabezado h1{
+        display: flex;
+        justify-content: left;
+    }
+    
+    .LOGO{
+        display: flex;
+        justify-content: center;  
+    }
+
+    .LOGO img{
+        width: 500px;
+    }
+    
+    .navbar ul{
+       list-style: none;
+       display: flex;
+    }
+    
+    .navbar ul li{
+        padding: 10px;
+    }
+    
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .cuerpo{
+    grid-area: main;
+    }
+    
+    .pie{
+        grid-area: footer;
+    }
+    
+    .titulo{
+        text-align:left;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: inherit;
+        background-color: lightgray;
+        height: 50px;
+    }
+    
+    .logo{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+    
+    }   
+    
+    .info{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: inherit;
+        background-color: lightgrey;
+        height: 40px;
+    }
+    
+    .ubicacion{
+        display:flex;
+        justify-content: start;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 10px;
+    }
+    
+    .mapa{
+        text-align: center;
+    }
+    
+    .ViasDeContacto{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        background-color: lightgrey;
+        padding: 8px;
+    }
+    
+    .ViasCont{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ViasCont li{
+        list-style: none;
+        margin: 10px;
+    }
+    
+    .nosotros{
+    text-align: center;
+    font-size: 40px;
+    background-color: lightgray;
+    }
+    
+    .historia{
+        background-color: lightgray;
+        font-size: 25px;
+    }
+    
+    .titulo__maquinarias{
+        text-align: center;
+        background-color: lightgrey;
+        margin: 20px;
+        width: 100%;
+    
+    }
+    
+    .kr1500{
+        width: 100%;
+        text-align: center;
+        border: 5px solid black;
+        margin: 20px;
+    }
+    
+    .exactadd{
+        width: 100%;
+        text-align: center;
+        border: 5px solid black;
+        margin: 20px;
+    }
+    
+    .berco{
+        width: 100%;
+        text-align: center;
+        border: 5px solid black;
+        margin: 20px;
+    }
+    
+    .video{
+        width: 100%;
+        text-align: center;
+        border: 5px solid black;
+        margin: 20px;
+    }   
+    
+    
+    .titulo__trabajos{
+        width: 100%;
+        margin: 10px;
+        text-align: center;
+        background-color: lightgrey;
+    }
+      
+    .trabajosimag ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        border: 5px solid black 
+    }
+    
+    .trabajosimag ul li{
+        margin: 10px;
+        border: 3px solid black;
+    }
+    
+    .trabajosimag ul li h3{
+        text-align: center;
+    }
+    
+    .pie__titulo{
+        text-align: center;
+    }
+    
+    
+    .titulo__contacto{
+        text-align: center;
+        background-color: lightgray;
+        font-size: 30px;
+    }
+    
+    .caja__contacto{
+        width: 100%;
+        text-align: center;
+        border: 3px solid black;
+        margin: 10px;
+    }
+    
+    .enviar{
+        text-align: right;
+    }
+}

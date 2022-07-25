@@ -4,3 +4,11 @@
 @import "contacto.scss";
 @import "maquinarias.scss";
 @import "trabajos.scss";
+
+@mixin PieIndex ($color,$margin,$padding,$aling){
+    color: $color;
+    margin: $margin;
+    padding: $padding;
+    text-align: $aling;
+}
+    

@@ -17,8 +17,6 @@
     }
 
 .pie{
-    color: $ColorLetras;
-    margin: map-get($footer , margin );
-    padding: map-get($footer , padding );
-    text-align: center; 
+    @include PieIndex ($ColorLetras,map-get($footer , margin),map-get($footer , padding),center);
 }
+
